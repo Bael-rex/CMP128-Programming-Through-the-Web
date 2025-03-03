@@ -1,9 +1,9 @@
 body{
-  background-color: gray;
-  color: violet;
+  background-color: Silver;
+  color: Red;
 }
 #myButton{
-  color: red;
+  color: Gray;
   height:100px;
   width:300px;
 }
