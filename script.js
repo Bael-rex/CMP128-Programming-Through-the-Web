@@ -12,7 +12,6 @@
     <script src="script.js"></script>
 </body>
 </html>
-// script.js
 document.getElementById('quoteButton').addEventListener('click', displayRandomQuote);
 
 const quotes = [
@@ -28,7 +27,6 @@ function displayRandomQuote() {
     const quote = quotes[randomIndex];
     document.getElementById('quoteDisplay').innerText = quote;
 }
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -38,20 +36,17 @@ body {
     height: 100vh;
     margin: 0;
 }
-
 button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     margin-bottom: 20px;
 }
-
 #quoteDisplay {
     font-size: 24px;
     text-align: center;
     max-width: 80%;
 }
-
 @media (max-width: 600px) {
     #quoteDisplay {
         font-size: 18px;
