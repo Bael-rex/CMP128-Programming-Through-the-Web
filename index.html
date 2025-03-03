@@ -35,4 +35,112 @@
     </footer>
     <script src="script.js"></script>
 </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: silver;
+            padding: 10px 0;
+        }
+        nav a {
+            color: silver;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 20px;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+        form input, form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #575757;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Bites Restaurant</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="home">
+        <h2>Welcome to Delicious Bites!</h2>
+        <p>Enjoy the best culinary experience with our exquisite dishes and exceptional service.</p>
+    </main>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <p>Explore a variety of delicious options curated by our top chefs.</p>
+        <!-- Add menu items here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Delicious Bites Restaurant</p>
+    </footer>
+</body>
+</html>
 </html>
