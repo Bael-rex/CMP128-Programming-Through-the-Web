@@ -1,9 +1,70 @@
-body{
-  background-color: Silver;
-  color: Red;
+/* General Styles */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-#myButton{
-  color: Gray;
-  height:100px;
-  width:300px;
+
+/* Header Styles */
+header {
+    background-color: #4caf50; /* Green */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+/* Button Styles */
+button {
+    background-color: #008cba;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+button:hover {
+    background-color: #005f7f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
 }
