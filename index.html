@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <h1>Welcome to the Web Development Exercises</h1>
     </header>
+
+    <!-- Navigation Menu -->
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -17,37 +20,52 @@
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
-    <section>
-        <p>This website is designed to help you learn and practice web development.</p>
-        form>
-        <input type="submit" value="Submit">
-    </form>
-        <button id="myButton1">
-            Click 
-        </button>
-        <button id="myButton2">
-            Click 
-        </button>
-        <input type="submit" value="Submit">
-    </section>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Description -->
+        <section>
+            <p>This website is designed to help you learn and practice web development.</p>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <!-- Buttons for Interaction -->
+        <section>
+            <h2>Interactive Buttons</h2>
+            <button id="myButton1">Click Me 1</button>
+            <button id="myButton2">Click Me 2</button>
+        </section>
+
+        <!-- Motivational Quote Button -->
+        <section>
+            <h2>Motivational Quote</h2>
+            <button id="quoteButton">Get Motivated!</button>
+            <p id="quote"></p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
     <footer>
         <p>Created by Your Name</p>
     </footer>
+
+    <!-- Link to JavaScript File -->
     <script src="script.js"></script>
 </body>
-    <section id="contact">
-    <h2>Contact Us</h2>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit">Send</button>
-    </form>
-</section>
 </html>
