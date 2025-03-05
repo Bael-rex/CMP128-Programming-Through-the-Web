@@ -69,8 +69,25 @@ footer {
     body {
         font-size: 14px;
     }
+    @media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
 
     nav {
         flex-direction: column;
     }
+
+    header, footer, main {
+        padding: 10px;
+    }
+}
+
+    nav {
+        flex-direction: column;
+    }
+}
+img, video {
+    max-width: 100%;
+    height: auto;
 }
