@@ -21,6 +21,12 @@ nav {
     justify-content: center;
     background-color: #333;
 }
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
 
 nav a {
     color: white;
